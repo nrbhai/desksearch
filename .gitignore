@@ -1,0 +1,17 @@
+# build output (made by build.bat)
+build/
+dist/
+releases/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local index / settings if ever copied here
+*.db
+*.db-wal
+*.db-shm
+settings.json
